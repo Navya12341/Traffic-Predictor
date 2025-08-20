@@ -42,7 +42,7 @@ Parallel(n_jobs=self.n_jobs)(delayed(process_numerical_column)(col) for col in n
 
 ### Implementation Details
 1. **Preprocessing Stage**
-   ![Preprocessing Flow](docs/images/training_progress.png)
+   ![Preprocessing Flow](docs/output.txt)
    - Handles missing values
    - Encodes categorical features
    - Removes duplicates
@@ -77,6 +77,6 @@ Parallel(n_jobs=self.n_jobs)(delayed(process_numerical_column)(col) for col in n
 
 ### Screenshots
 ![Confusion Matrix](docs/images/confusion_matrix.png)
-![Training Progress](docs/images/training_progress.png)
+![Training Progress](docs/images/output.txt)
 
 [Note: Replace image paths with actual screenshots from your runs]
